@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(233, 227, 220);
+}
+main{
+    width: 80%;
+    height: auto;
+    background-color: cyan;
+    margin: 30px auto;
+    border: 2px solid black;
+}
+    
+li{
+    font-size: 18px;
+    margin: 10px 0 0 80px;
+    background-color: blanchedalmond;
+    display: inline-block;
+    
+
+}
+ul{
+    list-style: none;
+    padding-bottom: 15px;
+    
+}

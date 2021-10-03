@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: dodgerblue;
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: goldenrod;
+    position: absolute;
+}
+.posição1{
+    top: 0;
+    left: 0;
+}
+.posição2{
+    top: 0;
+    right: 0;
+}
+.posição3{
+    bottom: 0;
+    right: 0;
+}
+.posição4{
+    bottom: 0;
+    left: 0;
+}

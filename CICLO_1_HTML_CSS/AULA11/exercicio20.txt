@@ -1,0 +1,9 @@
+1. Qual propriedade de CSS que permite aplicar um "degradê" em um elemento HTML? Dê um exemplo.
+    RESP.: a propriedade é background, exemplo: background-linear gradiente(to bottom, red, black).
+2. Por padrão, é recomendado que a aplicação do CSS seja na forma inline ou mesmo no próprio 
+   corpo do código HTML.
+    RESP.: Pode sim usar propriedades do CSS tanto inline ou dentro do codigo HTML, mas o recomendado
+    é que se cria um arquivo CSS para conter a maioria das propriedades.
+3. Qual a diferença básica entre a unidade de medida pixel (px) e a unidade em percentual (%)?
+    RESP.: A diferença é: a unidade de pixel é um tamanho fixo do objeto, e a unidade porcentagem é o 
+    tamanho que ele terá em relação ao conteiner pai ou do viewport.

@@ -1,0 +1,27 @@
+:root{
+    --cor-background-padrao: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+div{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    background-color: var(--cor-background-padrao);
+    
+}
+div:hover{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    background-color: red;
+    cursor: pointer;
+    
+}

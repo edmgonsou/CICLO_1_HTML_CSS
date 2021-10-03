@@ -1,0 +1,5 @@
+1. Qual é a tag semântica que servirá de contêiner para as tags de parágrafo <p>?
+    RESP.: A tag que usa de contêiner para as tags de parágrafo <p> e a tag article <article>.
+
+2. Uma tag de parágrafo pode ser substituída por uma tag <div> principalmente para conter textos longos?
+    RESP: Não, hoje a tag <div> não se usa muito pois a div tem uso especifico, para textos longos usa-se a tag <article>.

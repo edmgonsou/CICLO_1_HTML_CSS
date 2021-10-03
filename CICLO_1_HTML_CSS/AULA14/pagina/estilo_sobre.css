@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header{
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    background-color:blue;
+}
+article, p, h1{
+    width: 80%;
+    height: auto;
+    margin: 60px auto;
+}
+.estilo{
+    width: 80%;
+    height: auto;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(193, 193, 209);
+    
+}
+.estilo:hover{
+    text-decoration: none;
+    color: brown;
+    background-color: aqua;    
+}

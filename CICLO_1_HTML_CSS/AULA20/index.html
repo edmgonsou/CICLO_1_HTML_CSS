@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Aula 20</title>
+</head>
+<body>
+<section id="formulario">
+    <form method="post" nome="contato">
+        <fieldset>
+            <legend>Cadastro do usuário</legend>
+            <label for="nomeusu" >Nome</label>
+            <input type="text" required placeholder="Digite seu nome" class="txt" id="nomeusu" name="nomeusu" value="">
+            <label for="sobrenomeusu">Sobre Nome</label>
+            <input type="text" class="txt" id="sobrenomeusu" name="sobrenomeusu" value="">
+            <Label for="datanascusu">Data de Nascimento</Label>
+            <input type="text" class="txt" id="datanascusu" name="datanascusu" value="">         
+        </fieldset>
+        <fieldset>
+            <legend>Sexo</legend>
+            <label for="masc">Masculino</label>
+            <input type="radio" id="masc" name="genero" value="m">
+            <label for="fem">Feminino</label>
+            <input type="radio" id="fem" name="genero" value="f">
+        </fieldset>
+        <fieldset>
+            <legend>Preferencias de Estudos</legend>
+            <label for="php">PHP</label>
+            <input type="checkbox" id="php" name="php" value="php">
+            <label for="js">JavaScript</label>
+            <input type="checkbox" id="js" name="js" value="js">
+            <label for="html-css">Html-Css</label>
+            <input type="checkbox" id="html-css" name="html-css" value="html-css">
+        </fieldset>
+        <fieldset>
+            <select>
+             <option value="">Selecione</option>
+             <option value="Junior">Junior</option>
+             <option value="Senior">Senior</option>
+                <option value="Plus">Plus Plus Master</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <label for="edição">Escreva sobre você</label>
+            <textarea name="" id="edição" cols="80" rows="10"></textarea>
+        </fieldset>
+        <input type="submit" name="enviardados" value="ENVIAR">
+    </form>
+</section>
+    
+</body>
+</html>

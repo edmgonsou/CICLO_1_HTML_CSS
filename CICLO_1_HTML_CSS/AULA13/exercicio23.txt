@@ -1,0 +1,7 @@
+1. Dê uma definição para o elemento HTML <body>.
+    RESP.: no elemento <body> é que define o inicio da página da web, e nele contém todo conteúdo como
+           titulo, parágrafo, fotos e outros.
+2. É correto dizer que por padrão todos os elementos HTML possuem uma definição de margin e padding?
+    RESP.: Não, nem todos elementos tem definição predefinidas.
+3. Uma tag <figure> pode conter várias tags <figcaption>.
+    RESP.: Não, para cada tag <figure> somente possuirá uma tag <figcaption>
